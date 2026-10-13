@@ -8,6 +8,14 @@
   },
   "plugins": [
     {
+      "name": "mods",
+      "description": "One /mods pane with a tab per installed mod: each mod's state, settings and actions in one place",
+      "source": {
+        "source": "github",
+        "repo": "mvacoimbra/claude-mods-hub"
+      }
+    },
+    {
       "name": "filetree",
       "description": "An IDE-style file tree for Claude Code that shows what Claude is doing and where in files",
       "source": {
@@ -17,10 +25,48 @@
     },
     {
       "name": "skins",
-      "description": "Skins for Claude Code: tool rows that open onto their input and answer, highlighted code, diff, table, math, Mermaid and shell cards, links, folding, a usage band, a calm mode and fifteen themes. /skin swaps them live.",
+      "description": "Skins for Claude Code: tool rows that open onto their input and answer, highlighted code, diff, table, math, Mermaid and shell cards, links, folding, a usage band, a calm mode and fifteen themes. Set them in the Skins tab of /mods.",
       "source": {
         "source": "github",
         "repo": "mvacoimbra/claude-skins"
+      }
+    },
+    {
+      "name": "cache-tax",
+      "description": "A Claude Code mod that keeps the one-hour prompt cache warm during breaks and stops a cold send once with its estimated rewrite cost. Warming uses model requests and costs tokens. Requires Claude Code 2.1.287+.",
+      "source": {
+        "source": "github",
+        "repo": "mvacoimbra/cache-tax"
+      }
+    },
+    {
+      "name": "savvy-progress",
+      "description": "Progress bar above the prompt for /savvy-flow, plus an agents panel opened from /mods: running, finished and planned subagents with model, task progress, context, cost and time.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mvacoimbra/claude-kit.git",
+        "path": "plugins/savvy-progress",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "replay-theater",
+      "description": "Replay Theater: step through the file edits Claude made in the last turn, one diff at a time.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mvacoimbra/claude-code-playground.git",
+        "path": "claude-code/mods/replay-theater",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "blast-radius",
+      "description": "Holds risky shell commands (rm -rf, git reset --hard, git clean, force push, migrations) and shows what they would change, with Proceed and Cancel buttons.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mvacoimbra/claude-code-playground.git",
+        "path": "claude-code/mods/blast-radius",
+        "ref": "main"
       }
     }
   ]
