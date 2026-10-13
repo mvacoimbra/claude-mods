@@ -17,7 +17,7 @@ claude plugin install skins@claude-mods
 
 ## Update
 
-After pushing to a fork:
+Bump `version` in the fork's `.claude-plugin/plugin.json` (an update only installs a new version number, not a new commit), push, then:
 
 ```bash
 claude plugin marketplace update claude-mods
