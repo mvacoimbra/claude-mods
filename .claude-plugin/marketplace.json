@@ -1,0 +1,27 @@
+{
+  "name": "claude-mods",
+  "owner": {
+    "name": "mvacoimbra"
+  },
+  "metadata": {
+    "description": "mvacoimbra's Claude Code mods: personal forks of community mods"
+  },
+  "plugins": [
+    {
+      "name": "filetree",
+      "description": "An IDE-style file tree for Claude Code that shows what Claude is doing and where in files",
+      "source": {
+        "source": "github",
+        "repo": "mvacoimbra/claude-code-filetree"
+      }
+    },
+    {
+      "name": "skins",
+      "description": "Skins for Claude Code: tool rows that open onto their input and answer, highlighted code, diff, table, math, Mermaid and shell cards, links, folding, a usage band, a calm mode and fifteen themes. /skin swaps them live.",
+      "source": {
+        "source": "github",
+        "repo": "mvacoimbra/claude-skins"
+      }
+    }
+  ]
+}
