@@ -12,7 +12,8 @@
       "description": "One /mods pane with a tab per installed mod: each mod's state, settings and actions in one place",
       "source": {
         "source": "github",
-        "repo": "mvacoimbra/claude-mods-hub"
+        "repo": "mvacoimbra/claude-mods-hub",
+        "ref": "redesign"
       }
     },
     {
@@ -20,7 +21,8 @@
       "description": "An IDE-style file tree for Claude Code that shows what Claude is doing and where in files",
       "source": {
         "source": "github",
-        "repo": "mvacoimbra/claude-code-filetree"
+        "repo": "mvacoimbra/claude-code-filetree",
+        "ref": "redesign"
       }
     },
     {
@@ -28,7 +30,8 @@
       "description": "Skins for Claude Code: tool rows that open onto their input and answer, highlighted code, diff, table, math, Mermaid and shell cards, links, folding, a usage band, a calm mode and fifteen themes. Set them in the Skins tab of /mods.",
       "source": {
         "source": "github",
-        "repo": "mvacoimbra/claude-skins"
+        "repo": "mvacoimbra/claude-skins",
+        "ref": "redesign"
       }
     },
     {
@@ -36,7 +39,8 @@
       "description": "A Claude Code mod that keeps the one-hour prompt cache warm during breaks and stops a cold send once with its estimated rewrite cost. Warming uses model requests and costs tokens. Requires Claude Code 2.1.287+.",
       "source": {
         "source": "github",
-        "repo": "mvacoimbra/cache-tax"
+        "repo": "mvacoimbra/cache-tax",
+        "ref": "redesign"
       }
     },
     {
@@ -46,7 +50,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mvacoimbra/claude-kit.git",
         "path": "plugins/savvy-progress",
-        "ref": "main"
+        "ref": "redesign"
       }
     },
     {
@@ -56,7 +60,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mvacoimbra/claude-code-playground.git",
         "path": "claude-code/mods/replay-theater",
-        "ref": "main"
+        "ref": "redesign"
       }
     },
     {
@@ -66,7 +70,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mvacoimbra/claude-code-playground.git",
         "path": "claude-code/mods/blast-radius",
-        "ref": "main"
+        "ref": "redesign"
       }
     }
   ]
