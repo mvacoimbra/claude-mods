@@ -15,6 +15,20 @@ be merged.
 | replay-theater | Replay | [mvacoimbra/claude-code-playground](https://github.com/mvacoimbra/claude-code-playground) (`claude-code/mods/replay-theater`) | [anthropics/claude-code-playground](https://github.com/anthropics/claude-code-playground) |
 | blast-radius | none: it asks before a risky shell command | [mvacoimbra/claude-code-playground](https://github.com/mvacoimbra/claude-code-playground) (`claude-code/mods/blast-radius`) | [anthropics/claude-code-playground](https://github.com/anthropics/claude-code-playground) |
 
+## The redesign
+
+Every mod is drawn from one shared kit (`claude-mods-hub/kit`), in Claude Code's own idiom and
+the skin chosen in skins, and every setting is the user's, the same in every session. That
+work lives on each repo's `redesign` branch, and this marketplace installs from it.
+
+Before it, every repo was tagged `pre-redesign`, and the mods' `main` branches were left as
+they were. To go back exactly to that point (marketplace on `main`, every mod reinstalled from
+it, the plugin stores restored from the backup taken then), from the `claude-mods` folder:
+
+```bash
+sh marketplace/scripts/rollback-redesign.sh
+```
+
 ## Install
 
 ```bash
