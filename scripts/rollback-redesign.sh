@@ -41,6 +41,10 @@ for mod in $mods; do
   claude plugin install "$mod@claude-mods"
 done
 
+# reflect-mod joined after the redesign; before it, the Python claude-reflect plugin ran.
+claude plugin uninstall reflect-mod@claude-mods >/dev/null 2>&1 || true
+claude plugin install claude-reflect@claude-reflect-marketplace >/dev/null 2>&1 || true
+
 echo "4/4 Restore the stores saved before the redesign"
 cp "$backup"/store/*.json "$HOME/.claude/plugins/store/"
 

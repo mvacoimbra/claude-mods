@@ -68,6 +68,16 @@
         "path": "claude-code/mods/blast-radius",
         "ref": "main"
       }
+    },
+    {
+      "name": "reflect-mod",
+      "description": "Turns your corrections into CLAUDE.md rules: a small model check on each short prompt finds reusable ones in any language, shown above the prompt to save or skip, and listed in /mods.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mvacoimbra/claude-reflect.git",
+        "path": "mod",
+        "ref": "main"
+      }
     }
   ]
 }

@@ -13,6 +13,7 @@ be merged.
 | filetree | Files | [mvacoimbra/claude-code-filetree](https://github.com/mvacoimbra/claude-code-filetree) | [data-goblin/claude-code-filetree](https://github.com/data-goblin/claude-code-filetree) |
 | savvy-progress | Agents | [mvacoimbra/claude-kit](https://github.com/mvacoimbra/claude-kit) (`plugins/savvy-progress`) | [johnnyvizz/claude-kit](https://github.com/johnnyvizz/claude-kit) |
 | replay-theater | Replay | [mvacoimbra/claude-code-playground](https://github.com/mvacoimbra/claude-code-playground) (`claude-code/mods/replay-theater`) | [anthropics/claude-code-playground](https://github.com/anthropics/claude-code-playground) |
+| reflect-mod | Reflect | [mvacoimbra/claude-reflect](https://github.com/mvacoimbra/claude-reflect) (`mod`) | [BayramAnnakov/claude-reflect](https://github.com/BayramAnnakov/claude-reflect) |
 | blast-radius | none: it asks before a risky shell command | [mvacoimbra/claude-code-playground](https://github.com/mvacoimbra/claude-code-playground) (`claude-code/mods/blast-radius`) | [anthropics/claude-code-playground](https://github.com/anthropics/claude-code-playground) |
 
 ## The redesign
@@ -40,6 +41,7 @@ claude plugin install filetree@claude-mods
 claude plugin install savvy-progress@claude-mods
 claude plugin install replay-theater@claude-mods
 claude plugin install blast-radius@claude-mods
+claude plugin install reflect-mod@claude-mods
 ```
 
 ## Update
